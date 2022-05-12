@@ -1,5 +1,7 @@
 package wsb.cw.prtest;
 
+import java.util.Objects;
+
 public class Klasa3pbobinsk {
 
     private String pole = "Pole";
@@ -14,6 +16,19 @@ public class Klasa3pbobinsk {
 
     public void setPole(String pole) {
         this.pole = pole;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Klasa3pbobinsk that = (Klasa3pbobinsk) o;
+        return Objects.equals(pole, that.pole);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(pole);
     }
 
     @Override
