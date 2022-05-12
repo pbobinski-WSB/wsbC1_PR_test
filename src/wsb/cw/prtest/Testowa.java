@@ -12,6 +12,10 @@ public class Testowa {
 
         System.out.println(new Klasa2());
 
+        Klasa3pbobinsk klasa3pbobinsk = new Klasa3pbobinsk("Jakiś tekst");
+
+        System.out.println(klasa3pbobinsk);
+
     }
 
 }
