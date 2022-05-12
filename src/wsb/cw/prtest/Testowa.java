@@ -16,6 +16,12 @@ public class Testowa {
 
         System.out.println(klasa3pbobinsk);
 
+        Square square = new Square(5);
+        System.out.println( square.calculateArea() );
+        System.out.println( square.calculateDiagonal() );
+        System.out.println( square.calculatePerimetr() );
+        System.out.println( square.calculateInscribedCircle() );
+        System.out.println( square.calculateCircumscribedCircle() );
     }
 
 }
