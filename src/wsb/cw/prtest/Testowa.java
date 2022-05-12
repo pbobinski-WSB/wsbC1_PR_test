@@ -10,6 +10,8 @@ public class Testowa {
 
         System.out.println(klasa);
 
+        System.out.println(new Klasa2());
+
     }
 
 }
