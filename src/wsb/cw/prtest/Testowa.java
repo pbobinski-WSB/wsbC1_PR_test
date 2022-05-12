@@ -6,6 +6,9 @@ public class Testowa {
 
         System.out.println("Pull Requests test");
 
+        Klasa klasa = new Klasa(10);
+
+        System.out.println(klasa);
 
     }
 
